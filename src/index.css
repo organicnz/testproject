@@ -2,6 +2,54 @@ html {
   box-sizing: border-box;
 }
 
+.tablename {
+  margin: 10px auto;
+  width: 50%;
+  padding: 10px;
+  color: darkslategrey;
+}
+
+table {
+  margin: 10px auto;
+  border-spacing: 0;
+  width: 60%;
+  border: 1px solid #dddddd;
+}
+
+th {
+  cursor: pointer;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Pagination links */
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+/* Style the active/current link */
+.pagination a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+/* Add a grey background color on mouse-over */
+.pagination a:hover:not(.active) {
+  background-color: #dddddd;
+}
+
 *,
 *::after,
 *::before {

@@ -3,12 +3,39 @@
 
 <head>
   <meta charset="UTF-8">
+
+  <!-- Bootstrap CSS
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous"> -->
+
   <title>Title</title>
   <link rel="stylesheet" href="./index.css">
 </head>
 
 <body>
-  <h1>Hello World</h1>
+  <div class="tablename">
+    <h2>Component Table</h2>
+  </div>
+  <div class="table">
+    <table id="table">
+      <tr>
+        <th>Name</th>
+        <th>Position</th>
+        <th>Office</th>
+        <th>Age</th>
+        <th>Start date</th>
+        <th>Salary</th>
+      </tr>
+    </table>
+    <span id="val"></span>
+    <div id="listingTable"></div>
+    <a href="javascript:prevPage()" id="btn_prev">Prev</a>
+    <a href="javascript:nextPage()" id="btn_next">Next</a>
+    page: <span id="page"></span>
+  </div>
+
+
+  <!-- <script type="text/javascript" src="./data.json"></script> -->
   <script src="./index.js"></script>
 </body>
 
