@@ -1,4 +1,11 @@
 [{
+    "name": "",
+    "position": "",
+    "office": "",
+    "age": "",
+    "start_date": "",
+    "salary": ""
+}, {
     "name": "Thor Walton",
     "position": "Developer",
     "office": "New York",
