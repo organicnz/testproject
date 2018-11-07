@@ -6,22 +6,22 @@ for (var i = 0; i < local_data.length; i++) {
   row_data =
     row_data +
     '<tr>' +
-    ' <td>' +
+    '<td>' +
     local_data[i].name +
-    ' </td>' +
-    ' <td>' +
+    '</td>' +
+    '<td>' +
     local_data[i].position +
-    ' </td>' +
-    ' <td>' +
+    '</td>' +
+    '<td>' +
     local_data[i].office +
     '</td>' +
-    ' <td>' +
+    '<td>' +
     local_data[i].age +
     '</td>' +
-    ' <td>' +
+    '<td>' +
     local_data[i].start_date +
     '</td>' +
-    ' <td>' +
+    '<td>' +
     local_data[i].salary +
     '</td>' +
     '</tr>';
@@ -99,4 +99,4 @@ document.getElementById('table').appendChild(table_body_element);
 
 // window.onload = function () {
 //   changePage(1);
-// };
+// }

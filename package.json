@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "description": "Qualifying test task for training courses",
   "main": "src/index.js",
-  "author": "Ptitsyn Anton",
+  "author": "Tarlan Isaev",
   "repository": {
     "type": "git",
     "url": "https://github.com/organicnz/testproject.git"
   },
-  "email": "ptitsyn.antony@yandex.ru",
+  "email": "tamerlanium@gmail.com",
   "license": "BSD-3-Clause",
   "engines": {
     "node": ">=8.9.0 <=v11.0.0",
