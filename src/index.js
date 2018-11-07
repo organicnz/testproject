@@ -30,7 +30,6 @@ var table_body_element = document.createElement('tbody');
 table_body_element.innerHTML = row_data;
 document.getElementById('table').appendChild(table_body_element);
 
-
 // var current_page = 1;
 // var records_per_page = 10;
 
